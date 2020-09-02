@@ -26,7 +26,7 @@ public class LoginController {
     @Autowired
     UserService userService;
 
-	//你好
+	//你好还不错
     @PostMapping("/dologin")
     @ApiOperation(value = "登录方法",notes = "登录方法")
     public Dto dologin(String usernae, String password, HttpServletRequest request){
