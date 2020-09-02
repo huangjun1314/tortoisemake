@@ -1,0 +1,5 @@
+api:
+  boot:
+    security:
+      ignoring-urls:
+        - /api/**
